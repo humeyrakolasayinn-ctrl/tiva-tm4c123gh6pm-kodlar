@@ -19,23 +19,18 @@ Donanım: Tiva C TM4C123G LaunchPad, 16x2 LCD Ekran, 10kΩ Potansiyometre, Bağl
 
 Yazılım: Code Composer Studio (CCS), TivaWare API Kütüphanesi.
 
-LCD Pin   	TM4C123G Pin	  Açıklama
-VSS       	GND	            Toprak
-VDD	        5V / VBUS	      Besleme
-V0	        Potansiyometre	Kontrast Ayarı
-RS        	PB0	            Komut/Veri Seçimi
-RW	        GND	            Yazma Modu
-E	          PB1            	Etkinleştirme (Enable)
-D4-D7     	PB4 - PB7	      Veri Hatları (4-bit)
 
-LCD Pin	TM4C123G Pin	Açıklama
-VSS	GND	Toprak
-VDD	5V / VBUS	Besleme
-V0	Potansiyometre	Kontrast Ayarı
-RS	PB0	Komut/Veri Seçimi
-RW	GND	Yazma Modu
-E	PB1	Etkinleştirme (Enable)
-D4-D7	PB4 - PB7	Veri Hatları (4-bit)
+
+GIRISTERMINAL TABLOSU:
+LCD Pin      | TM4C123G Pin | Aciklama
+-------------|--------------|------------------
+VSS          | GND          | Toprak
+VDD          | 5V           | Besleme
+V0           | Pot. Uc      | Kontrast
+RS           | PB0          | Komut/Veri Secimi
+RW           | GND          | Yazma Modu
+E            | PB1          | Etkinlestirme
+D4-D7        | PB4 - PB7    | Veri Hatlari (4-bit)
 
 
 🇺🇸 ENGLISH DESCRIPTION
