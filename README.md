@@ -1,63 +1,28 @@
-🕒 Tiva C Serisi TM4C123G LaunchPad ile 16x2 LCD'de Saat Sayacı
-(Digital Clock Counter on 16x2 LCD with Tiva C Series)
-Bu proje, Tiva C Serisi TM4C123G LaunchPad kullanarak 16x2 LCD ekranda 00:00:00'dan başlayarak zamanı sürekli olarak artıran ve donanımsal kesmeleri (interrupt) temel alan bir saat uygulamasıdır.
+# 🚀 Tiva C Serisi TM4C123G Projeleri
 
-🇹🇷 TÜRKÇE AÇIKLAMA
-📋 Proje Özeti
-Başlangıç: Saat 00:00:00 değerinden başlatılır.
+Bu depo, **İleri Mikroişlemciler Dersi** kapsamında Tiva C Serisi TM4C123G LaunchPad kullanılarak geliştirilen ödevleri içermektedir.
 
-Zamanlama: Tiva C'nin Timer modülü kullanılarak zaman her saniye hassas bir şekilde artırılır.
+**Öğrenci Bilgileri:**
+- **Ad Soyad:** Adınız Soyadınız
+- **Numara:** 123456789
 
-Görüntüleme: LCD ekran, zamanı saat, dakika ve saniye formatında (HH:MM:SS) gösterir.
+---
 
-Donanım Kontrolü: LCD ekran, Tiva C'nin GPIO pinleri üzerinden 4-bit modunda sürülür.
+## 📋 Ödev Listesi
 
-Geliştirme Ortamı: Kod, Code Composer Studio (CCS) ortamında yazılmış ve test edilmiştir.
+### 1. 16x2 LCD Sürücü Yazımı (Odev1_LCD_Driver)
+* **Açıklama:** Tiva C ile 16x2 LCD ekranın temel sürücü (driver) kodlarını içerir.
+* **Özellikler:** GPIO pin kontrolü, Komut ve Veri gönderme fonksiyonları.
+* **Donanım:** 16x2 Karakter LCD, Tiva C.
 
-🛠 Gereksinimler
-Donanım: Tiva C TM4C123G LaunchPad, 16x2 LCD Ekran, 10kΩ Potansiyometre, Bağlantı kabloları.
+### 2. LCD Saat Uygulaması (Odev2_Digital_Clock)
+* **Açıklama:** Timer kesmeleri kullanılarak oluşturulmuş hassas dijital saat.
+* **Özellikler:** SS:DD:SN formatı, Timer0 Interrupt kullanımı.
 
-Yazılım: Code Composer Studio (CCS), TivaWare API Kütüphanesi.
+### 3. LCD Üzerinde ADC Okuma (Odev3_LCD_ADC)
+* **Açıklama:** Analog sensör verisinin okunup dijital olarak LCD'de gösterilmesi.
+* **Özellikler:** ADC0 yapılandırması, Sıcaklık/Voltaj dönüşümü.
 
-
-
-GIRISTERMINAL TABLOSU:
-LCD Pin      | TM4C123G Pin | Aciklama
--------------|--------------|------------------
-VSS          | GND          | Toprak
-VDD          | 5V           | Besleme
-V0           | Pot. Uc      | Kontrast
-RS           | PB0          | Komut/Veri Secimi
-RW           | GND          | Yazma Modu
-E            | PB1          | Etkinlestirme
-D4-D7        | PB4 - PB7    | Veri Hatlari (4-bit)
-
-
-🇺🇸 ENGLISH DESCRIPTION
-📋 Project Overview
-Initialization: The clock starts at 00:00:00.
-
-Timing: Time is incremented every second using Tiva C's internal Timer module and interrupts.
-
-Display: The LCD displays the time in HH:MM:SS format.
-
-Interface: Interfaced via GPIO pins using 4-bit mode for efficiency.
-
-IDE: Developed and verified using Code Composer Studio (CCS).
-
-🛠 Requirements
-Hardware: Tiva C Series TM4C123G LaunchPad, 16x2 LCD, 10kΩ Potentiometer, Jumper wires.
-
-Software: Code Composer Studio (CCS), TivaWare Library.
-
-📂 File Structure
-main.c: Core logic, Timer configuration, and interrupt handler.
-
-lcd.h / lcd.c: LCD driver functions (Initialization, Command, Data).
-
-🚀 How to Run
-Hardware Setup: Connect the LCD to the LaunchPad according to the pin table above.
-
-Import & Compile: Import the project into CCS, compile, and flash it to the Tiva C board.
-
-Observation: Once powered, the clock will start counting up from 00:00:00 on the display.
+### 4. Seri Port ve GUI Haberleşmesi (Odev4_Serial_GUI)
+* **Açıklama:** UART protokolü üzerinden bilgisayar ve mikrodenetleyici haberleşmesi.
+* **Özellikler:** Python/C# Arayüz kontrolü, UART konfigürasyonu.
