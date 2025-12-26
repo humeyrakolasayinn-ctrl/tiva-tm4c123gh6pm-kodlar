@@ -1,7 +1,3 @@
-Ödev 2 (LCD Saat Uygulaması) için arkadaşının stiline uygun, hem Türkçe hem de İngilizce kısımları içeren profesyonel README.md içeriğini aşağıda hazırladım.
-
-Bu metni kopyalayıp GitHub'daki Odev2_Digital_Clock klasörünün içindeki README.md dosyasına yapıştırabilirsin.
-
 🕒 Tiva C Serisi TM4C123G LaunchPad ile 16x2 LCD'de Saat Sayacı
 (Digital Clock Counter on 16x2 LCD with Tiva C Series)
 Bu proje, Tiva C Serisi TM4C123G LaunchPad kullanarak 16x2 LCD ekranda 00:00:00'dan başlayarak zamanı sürekli olarak artıran ve donanımsal kesmeleri (interrupt) temel alan bir saat uygulamasıdır.
