@@ -25,4 +25,4 @@ Bu dosya, **İleri Mikroişlemciler Dersi** kapsamında Tiva C Serisi TM4C123G L
 
 ### 4. Seri Port ve GUI Haberleşmesi (Odev4_Serial_GUI)
 * **Açıklama:** UART protokolü üzerinden bilgisayar ve mikrodenetleyici haberleşmesi.
-* **Özellikler:** Python/C# Arayüz kontrolü, UART konfigürasyonu.
+* **Özellikler:** C Arayüz kontrolü, UART konfigürasyonu.
