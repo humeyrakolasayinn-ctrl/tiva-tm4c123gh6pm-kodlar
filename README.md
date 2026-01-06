@@ -1,10 +1,10 @@
 # 🚀 Tiva C Serisi TM4C123G Projeleri
 
-Bu depo, **İleri Mikroişlemciler Dersi** kapsamında Tiva C Serisi TM4C123G LaunchPad kullanılarak geliştirilen ödevleri içermektedir.
+Bu dosya, **İleri Mikroişlemciler Dersi** kapsamında Tiva C Serisi TM4C123G LaunchPad kullanılarak geliştirilen ödevleri içermektedir.
 
-**Öğrenci Bilgileri:**
-- **Ad Soyad:** Adınız Soyadınız
-- **Numara:** 123456789
+
+- HÜMEYRA KOLASAYIN
+- G220100055
 
 ---
 
